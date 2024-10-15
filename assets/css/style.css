@@ -263,7 +263,7 @@ section
 */
 section {
     text-align: center;
-    padding: 40px;
+    padding: 100px 40px 40px 40px;
     z-index: 1;
 }
 section > .title {
@@ -293,6 +293,9 @@ section .headline {
 /* 
 about 
 */
+#about {
+    margin-top: 100px;
+}
 .about-container{
     justify-content: center;
 }

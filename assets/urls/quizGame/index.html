@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Quiz Genre Selection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap">
+    <style>
+      body {
+        font-family: 'Merriweather', serif;
+        background-color: #f4f4f9;
+        color: #333;
+        padding: 50px;
+      }
+
+      h1 {
+        font-weight: 700;
+        font-size: 3rem;
+        color: #2c3e50;
+        text-align: center;
+        margin-bottom: 2rem;
+      }
+
+      .btn {
+        font-weight: 300;
+        background-color: #8e44ad;
+        color: white;
+        padding: 15px 30px;
+        margin: 10px;
+        border-radius: 50px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+      }
+
+      .btn:hover {
+        background-color: #6c3483;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .btn-container {
+        display: flex;
+        flex-direction: column; /* ボタンを縦に配置 */
+        align-items: center;
+        margin-top: 2rem;
+      }
+
+      footer {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 0.9rem;
+        color: #7f8c8d;
+      }
+
+      footer a {
+        color: #7f8c8d;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>歴史クイズ</h1><hr>
+      <h1>レベル選択</h1>
+      <div class="btn-container">
+        <a href="quiz.html?genre=level1" class="btn">レベル１</a>
+        <a href="quiz.html?genre=level2" class="btn">レベル２</a>
+        <a href="quiz.html?genre=level3" class="btn">レベル３</a>
+        <a href="quiz.html?genre=level4" class="btn">レベル４</a>
+        <a href="quiz.html?genre=level5" class="btn">レベル５</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Powered by Curiosity | <a href="https://x.com/elonmusk">Contact Us</a></p>
+    </footer>
+
+  </body>
+</html>

@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="JP">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="sneaker blog">
+    <title>Koichiro Ueno</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="./assets/css/sanitize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="icon" type="image/png" sizes="64x64" href="./assets/img/k.png">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+    
+    <header id="header">
+        <a href="#">
+            <img class="header-logo" src="./assets/img/k - コピー.png">
+        
+        <nav id="navi">
+            <ul class="nav-menu">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#works">WORKS</a></li>
+            </ul>
+            <ul class="nav-sns">
+                <li><a href="https://www.instagram.com/kouichi_99/?igsh=NXQ2Y2xzNWp3bW8w">instagram</a></li>
+            </ul>
+        </nav>
+
+        <div class="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div id="mask"></div>
+    </header>
+
+    <main>
+        <img src="./assets/img/me.jpg" alt="me">
+        <div class="main-description">
+            <h1>Koichiro Ueno</h1>
+            <p class="dancing-script-main">Portfolio Website</p>
+        </div>
+        <div class="scroll">
+            <p>Scroll</p>
+            <span class="arrow-down">
+                <!-- css generated icon -->
+            </span>
+        </div>
+    </main>
+
+    <section class="About" id="about">
+        <div class="title">
+            <h1 class="headline">
+                ABOUT
+            </h1>
+            <p>私について</p>
+            </div>
+        </div>
+        
+        <div class="about-container">
+            <div class="about-box fadein">
+                <h2>自己紹介</h2>
+                初めまして。私は上野航一朗と申します。<br>
+                2022年4月、大阪大学基礎工学部情報科学科に入学し、現3回生です。<br>
+                プログラミングの勉強は大学に入ってからし始め、現在はWebアプリをつくるなどしています。
+                2026年秋季応用情報技術者試験の受験をきっかけに、上流工程やインフラ開発に興味を
+                持つようになりました。
+            </div>
+            <div class="about-box fadein">
+                <h2>学んだ技術</h2>
+                html、css、javascriptはある程度勉強しました。大学ではCやPython、Javaを主に使っています。<br>
+                Webアプリ制作では、Next.jsやPHP、Laravelを使用しました。
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="feature" id="works">
+        <div class="title">
+            <h1 class="headline">
+                WORKS
+            </h1>
+            <p>制作物</p>
+            </div>
+        </div>
+
+        <div class="grid">
+            <a href="http://15.168.173.33/">
+                <div class="item">
+                    <img src="./assets/img/todo.png" alt="" class="fadein">
+                    <div class="item-content">
+                        <p class="item-cat">ToDo管理アプリ</p>
+                        <p class="item-text">フロントエンドとバックエンドを実装しました。また、
+                            サーバにAWSを使用しており、クリックすると外部ページに遷移します。
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="./assets/urls/quizGame/">
+                <div class="item">
+                    <img src="./assets/img/his.png" alt="" class="fadein">
+                    <div class="item-content">
+                        <p class="item-cat">クイズゲーム</p>
+                        <p class="item-text">フロントエンドのみでクイズゲームを作成しました。問題データはjsonファイルに
+                            まとめ管理しています。レスポンシブデザインです。是非一度遊んでみてください。
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="./assets/urls/zyokyu/">
+                <div class="item">
+                    <img src="./assets/img/sneakers.png" alt="" class="fadein">
+                    <div class="item-content">
+                        <p class="item-cat">デモWebサイト</p>
+                        <p class="item-text">このポートフォリオサイトのもとになったサイトです。
+                            JQueryなど多彩な技術を使用しています。レスポンシブデザインです。
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="./assets/urls/leaningweb/">
+                <div class="item">
+                    <img src="./assets/img/hello.png" alt="" class="fadein">
+                    <div class="item-content">
+                        <p class="item-cat">デモWebサイト</p>
+                        <p class="item-text">html,css,javascriptを使用しました。GoogleMapのAPIを
+                            使用し地図の埋め込みなども行っています。レスポンシブデザインです。
+                        </p>
+                    </div>
+                </div>
+            </a>
+            <a href="./assets/urls/beginner-2/">
+                <div class="item">
+                    <img src="./assets/img/building.png" alt="" class="fadein">
+                    <div class="item-content">
+                        <p class="item-cat">デモWebサイト</p>
+                        <p class="item-text">html,cssを使用しました。ホバー時の　
+                            処理も実装しています。レスポンシブデザインです。</p>
+                    </div>
+                </div>
+            </a>
+            <a href="./assets/urls/beginner-1/">
+                <div class="item">
+                    <img src="./assets/img/bicycle.png" alt="" class="fadein">
+                    <div class="item-content">
+                        <p class="item-cat">デモWebサイト</p>
+                        <p class="item-text">
+                        html,cssを使用しました。基本的なWebページです。レスポンシブデザインです。
+                        </p>
+                    </div>
+                </div>
+            </a>
+            
+            
+        </div>
+    </section>
+    
+    
+
+    <footer id="footer">
+        <h1>Thank You for Visiting My Portfolio!!</h1>
+        <a href="mailto:kouichi.03.0907@icloud.com">
+            <h2>Contact me here</h2>
+        </a>
+        <br>
+        &copy Koichiro Ueno</footer>
+
+
+    <script src="./assets/js/app.js"></script>
+    
+</body>
+</html>
